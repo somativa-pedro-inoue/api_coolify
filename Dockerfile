@@ -1,5 +1,5 @@
 # Usa uma imagem oficial do Python
-FROM python:3.10-slim
+FROM python:3.12-slim
 
 # Instala dependências do sistema e o Poetry
 RUN apt-get update && apt-get install -y curl && \
